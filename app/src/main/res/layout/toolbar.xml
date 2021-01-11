@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FC3D7E"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        >
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home Page"
+            android:layout_margin="16dp"
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/menu"
+            android:layout_toRightOf="@+id/menu"
+          android:layout_marginRight="20dp"
+            android:textColor="#ffff"/>
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_centerVertical="true"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            android:src="@drawable/ic_baseline_menu_24"
+
+            />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
